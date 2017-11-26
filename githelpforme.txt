@@ -17,5 +17,5 @@ git rm --cached <file> remove the file to be added in repo
 git commit : press i esc + :wq to get out of comment section 
 git remote add origin <link> // neccessary to pull and push assignment 
 
-or git commit -A ( commit certain file or all) 
-
+or git commit -a ( commit certain file or all) 
+maybe 
