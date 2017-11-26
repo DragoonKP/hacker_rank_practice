@@ -1,0 +1,21 @@
+Git hub command not to forget 
+
+git reflog # display the index of the commit 
+git  reset HEAD@index # go back to commit working 
+
+git init  // initialize a git repositary to be pushed 
+git config user.name 'my name' 
+git config user.email 'myemail' 
+	
+
+git status 
+git add <file name> add something in the git repo
+git add *.filetype add all those filetype to be pushed 
+git rm --cached <file> remove the file to be added in repo 
+
+
+git commit : press i esc + :wq to get out of comment section 
+git remote add origin <link> // neccessary to pull and push assignment 
+
+or git commit -A ( commit certain file or all) 
+
