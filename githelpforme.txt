@@ -19,3 +19,7 @@ git remote add origin <link> // neccessary to pull and push assignment
 
 or git commit -a ( commit certain file or all) 
 maybe 
+
+git push origin <branch name> master for me usually 
+
+
