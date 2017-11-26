@@ -1,0 +1,22 @@
+vector<int> array_left_rotation(vector<int> a, int n, int k) 
+{
+    // move everything by k and if index max reached make that  // 0,1,2,...k 
+    int new_index = 0 ; 
+    vector<int> new_a ; 
+    for ( int i = 0 ; i < a.size() ; i++) {
+        new_index = (i + k) % n  ; 
+        new_a.push_back(a[new_index]) ;
+    }
+    return new_a ; 
+}
+
+vector <int> leftRotation(vector <int> a, int d) {
+    // Complete this function
+    int new_index = 0 ; 
+    vector <int> new_a ;  
+    for ( int i = 0 ; i < a.size() ; i++) {
+        new_index = (i+d)%(a.size()) ; 
+        new_a.push_back(a[new_index]) ; 
+    }
+    return new_a ; 
+}
